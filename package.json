@@ -1,0 +1,32 @@
+{
+  "name": "join-classnames",
+  "version": "1.0.0",
+  "description": "A micro-lib accepts n arguments of CSS classnames, removes falsey args &amp; joins them into a space-separated string",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "modules.root": "src",
+  "esnext:main": "src/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src -d dist",
+    "test": "babel-tape-runner src/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/join-classnames.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/join-classnames/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/join-classnames#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-tape-runner": "^2.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}

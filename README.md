@@ -8,4 +8,4 @@ import join from 'join-classnames';
 join('a', true===false & 'b', 'c'); // "a c";
 ```
 
-Micro? the docs have more chars than the code ¯\_(ツ)_/¯
+Micro? the docs have more chars than the code ¯\\_(ツ)_/¯

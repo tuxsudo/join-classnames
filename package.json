@@ -1,11 +1,8 @@
 {
   "name": "join-classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A micro-lib accepts n arguments of CSS classnames, removes falsey args &amp; joins them into a space-separated string",
   "main": "dist/index.js",
-  "module": "src/index.js",
-  "modules.root": "src",
-  "esnext:main": "src/index.js",
   "scripts": {
     "prepublish": "npm run build",
     "build": "babel src -d dist",
